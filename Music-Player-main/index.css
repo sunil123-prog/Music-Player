@@ -1,0 +1,356 @@
+html {
+  scroll-behavior: smooth;
+}
+.ul-pic {
+  list-style-type: none;
+  float: left;
+  background-color: black;
+  padding: 22px 25px;
+  /* border-radius: 500%; */
+}
+
+.name{
+    font-size: 30px;
+    padding: 0px 30px;
+    font-family: "Lucida Handwriting", cursive;
+    color: white;
+}
+
+.ul-1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  /* font-size: 120px; */
+  /* opacity: 0.5; */
+  /* border-radius: 15%; */
+  /* border-style: groove;
+    border-width: medium;
+    border-radius: 15px;
+    border-color: black; */
+}
+
+li {
+  float: right;
+}
+
+.a-navbar {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 26px 26px;
+  text-decoration: none;
+  font-family: "Papyrus", fantasy;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.a-navbar:hover {
+  color: rgb(122, 33, 150);
+}
+
+.active {
+  color: darkorchid;
+}
+
+body {
+  background-color: white;
+  /* background-image: url("media/bg7.jpeg"); */
+  background-image: linear-gradient(to bottom right, blue, purple);
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  background-position-y: top;
+  background-position-x: center;
+  /* background-position: center; */
+  height: 100%;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.start {
+  height: 500px;
+  width: 500px;
+  /* border-radius: 500%; */
+  float: right;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 600px;
+  transition: transform .3s;
+}
+
+.start:hover{
+  transform: scale(1.1);
+}
+
+.b1{
+  background-color: white;
+  font-family: "Papyrus", fantasy;
+  font-weight: bold;
+  border: none;
+  color: black;
+  padding: 7px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  position: absolute;
+  left: 8%;
+  margin-top: 500px;
+  transition: transform .4s;
+}
+
+.b1:hover, .a-b1:hover, .a-b1:visited{
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}
+
+.a-b1{
+    /* background-color: white; */
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    /* border: 3px ridge white; */
+}
+
+.index-text{
+    position: absolute;
+    left: 8%;
+    bottom: 35%;
+    font-family: "Audiowide", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+}
+
+.area-2{
+  margin-top: 600px;
+  height: 500px;
+  background-color: white;
+  border-radius: 50px;
+  background-position-x: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.text-2{
+  position: absolute;
+  left: 44%;
+  margin-top: 35px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+.icon-list{
+  list-style-type: none;
+  position: absolute;
+  margin-top: 150px;
+}
+
+.icon-1{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 300px;
+  transition: transform .3s;
+}
+
+.icon-2{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 200px;
+  transition: transform .3s;
+}
+
+.icon-3{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 200px;
+  transition: transform .3s;
+}
+
+.icon-1:hover, .icon-2:hover, .icon-3:hover{
+  transform: scale(1.3);
+}
+
+.text-icon{
+  list-style-type: none;
+  position: absolute;
+  margin-top: 370px;
+  font-family: "Papyrus", fantasy;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.text-i-1{
+  margin-left: 155px;
+}
+
+.text-i-2{
+  margin-left: 80px;
+}
+
+.text-i-3{
+  margin-left: 175px;
+}
+
+
+.area-3{
+  margin-top: 100px;
+  height: 600px;
+  background-image: linear-gradient(to bottom left, blueviolet, darkorchid);
+  background-position-x: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.area-3-p{
+  font-family: "Audiowide", fantasy;
+  /* font-weight: bold; */
+  color: white;
+  font-size: 48px;
+  position: absolute;
+  left: 36%;
+  margin-top: 190px;
+}
+
+
+.b2{
+  position: absolute;
+  left: 44%;
+  margin-top: 400px;
+  padding: 3px 35px;
+  text-align: center;
+  /* text-decoration: none; */
+  display: inline-block;
+  border-radius: 50px;
+  border: 3px solid white;
+  background-color: transparent;
+  font-family: "Papyrus";
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: transform .4s;
+}
+
+.b2:hover, .a-b2:hover{
+  background-color: black;
+  color: white;
+  transform: scale(1.2);
+}
+
+.a-b2, .a-b2:visited{
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+#area-4{
+  background-image: linear-gradient(to bottom left, wheat, aliceblue);
+  border-radius: 50px;
+  margin-top: 100px;
+  height: 500px;
+  background-position-x: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.form{
+  position: absolute;
+  left: 40%;
+  margin-top: 60px;
+  font-family: "Audiowide", sans-serif;
+}
+
+#area-4-submit{
+  background-color:lavender;
+  color: black;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 6px 28px;
+  transition: transform .3s;
+}
+
+#area-4-reset{
+  background-color:lavender;
+  color: black;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 6px 28px;
+  margin-left: 20px;
+  transition: transform .3s;
+}
+
+#area-4-submit:hover{
+  transform: scale(1.3);
+}
+
+#area-4-reset:hover{
+  transform: scale(1.3);
+}
+
+.area-5{
+  background-color: black;
+  margin-top: 100px;
+  height: 200px;
+}
+
+.footer-1{
+  list-style-type: none;
+  position:absolute;
+  margin-top: 30px;
+}
+
+.footer-text-1{
+  color: white;
+  list-style-type: none;
+  position: absolute;
+  margin-top: 30px;
+  left: 500px;
+  font-family: "Papyrus", fantasy;
+  text-decoration: none;
+}
+
+.footer-heading{
+  font-size: 20px;
+}
+
+.a-footer, .a-footer:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-text-2{
+  color: white;
+  list-style-type: none;
+  position: absolute;
+  margin-top: 30px;
+  left: 900px;
+  font-family: "Papyrus", fantasy;
+  text-decoration: none;
+}
+
+.proud{
+  color: white;
+  font-family: "Papyrus", sans-serif;
+  position: absolute;
+  margin-left: 1300px;
+  margin-top: 75px;
+  font-size: 40px;
+}
+

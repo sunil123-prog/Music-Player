@@ -1,0 +1,167 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.bg {
+  padding: 0;
+}
+
+body {
+  /* background-color: white; */
+  /* background-image: url("media/bg7.jpeg"); */
+  background-image: linear-gradient(to top left, darkred, orange, green, blue);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  /* background-position: center; */
+  height: 100%;
+  margin: 0;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.ul-pic {
+  list-style-type: none;
+  float: left;
+  background-color: black;
+  padding: 8px 16px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 30px;
+  padding: 0px 30px;
+  font-family: "Lucida Handwriting", cursive;
+  color: white;
+}
+
+li {
+  float: right;
+}
+
+.a-navbar {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-family: "Papyrus", fantasy;
+  font-weight: bold;
+  font-size: 28px;
+  margin-right: 25px;
+}
+
+.a-navbar:hover {
+  color: orange;
+}
+
+.active {
+  color: darkorchid;
+}
+
+.head {
+  font-family: "Audiowide", sans-serif;
+  color: white;
+  font-size: 100px;
+  margin-left: 480px;
+  margin-top: 60px;
+}
+
+.area-3 {
+  background-image: linear-gradient(to top right, wheat, aliceblue);
+  /* background-image: url('media/marshmallow.jpg'); */
+  height: 600px;
+  margin: 50px;
+  margin-top: 100px;
+  border-radius: 50px;
+}
+
+.me{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 900px;
+    border-radius: 500px;
+    border: 2px groove black;
+    transition: transform 0.6s;
+}
+
+.me:hover{
+    transform: scale(1.2);
+}
+
+.data-list{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Papyrus";
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    list-style-type: none;
+    /* float: left; */
+}
+
+.area-5 {
+  background-color: black;
+  margin-top: 100px;
+  height: 230px;
+}
+
+.footer-1 {
+  list-style-type: none;
+  position: absolute;
+  margin-top: 30px;
+}
+
+.footer-text-1 {
+  color: white;
+  list-style-type: none;
+  position: absolute;
+  margin-top: 30px;
+  left: 500px;
+  font-family: "Papyrus", fantasy;
+  text-decoration: none;
+}
+
+.footer-heading {
+  font-size: 20px;
+}
+
+.a-footer,
+.a-footer:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-text-2 {
+  color: white;
+  list-style-type: none;
+  position: absolute;
+  margin-top: 30px;
+  left: 900px;
+  font-family: "Papyrus", fantasy;
+  text-decoration: none;
+}
+
+.proud {
+  color: white;
+  font-family: "Papyrus", sans-serif;
+  position: absolute;
+  margin-left: 1300px;
+  margin-top: 75px;
+  font-size: 40px;
+}

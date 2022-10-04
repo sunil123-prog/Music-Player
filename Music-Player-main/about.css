@@ -1,0 +1,141 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.bg {
+  padding: 0;
+}
+
+body {
+  /* background-color: white; */
+  /* background-image: url("media/bg7.jpeg"); */
+  background-image: linear-gradient(to top right, white, lightblue, wheat);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  /* background-position: center; */
+  height: 100%;
+  margin: 0;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.ul-pic {
+  list-style-type: none;
+  float: left;
+  background-color: black;
+  padding: 8px 16px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 30px;
+  padding: 0px 30px;
+  font-family: "Lucida Handwriting", cursive;
+  color: white;
+}
+
+li {
+  float: right;
+}
+
+.a-navbar {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-family: "Papyrus", fantasy;
+  font-weight: bold;
+  font-size: 28px;
+  margin-right: 25px;
+
+}
+
+.a-navbar:hover {
+  color: orange;
+}
+
+.active {
+  color: darkorchid;
+}
+
+.text{
+  margin-left: 250px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.head1{
+  font-size: 50px;
+  text-decoration: underline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p-text{
+  font-size: 20px;
+  font-family: 'Monaco', monospace;
+}
+
+.area-5 {
+  background-color: black;
+  margin-top: 100px;
+  height: 230px;
+}
+
+.footer-1 {
+  list-style-type: none;
+  position: absolute;
+  margin-top: 30px;
+}
+
+.footer-text-1 {
+  color: white;
+  list-style-type: none;
+  position: absolute;
+  margin-top: 30px;
+  left: 500px;
+  font-family: "Papyrus", fantasy;
+  text-decoration: none;
+}
+
+.footer-heading {
+  font-size: 20px;
+}
+
+.a-footer,
+.a-footer:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-text-2 {
+  color: white;
+  list-style-type: none;
+  position: absolute;
+  margin-top: 30px;
+  left: 900px;
+  font-family: "Papyrus", fantasy;
+  text-decoration: none;
+}
+
+.proud {
+  color: white;
+  font-family: "Papyrus", sans-serif;
+  position: absolute;
+  margin-left: 1300px;
+  margin-top: 75px;
+  font-size: 40px;
+}
